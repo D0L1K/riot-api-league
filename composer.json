@@ -34,5 +34,5 @@
 			"RiotAPI\\LeagueAPI\\": "src/LeagueAPI"
 		}
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "stable"
 }
