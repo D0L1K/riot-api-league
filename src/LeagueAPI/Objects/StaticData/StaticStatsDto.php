@@ -84,6 +84,9 @@ class StaticStatsDto extends ApiObject
 	/** @var double $attackspeedperlevel */
 	public $attackspeedperlevel;
 
+    /** @var double $attackspeed */
+    public $attackspeed;
+
 	/** @var double $hpregen */
 	public $hpregen;
 

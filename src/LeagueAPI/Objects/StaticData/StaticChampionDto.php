@@ -30,6 +30,9 @@ use RiotAPI\LeagueAPI\Objects\ApiObject;
  */
 class StaticChampionDto extends ApiObject
 {
+    /** @var string $version */
+    public $version;
+
 	/** @var StaticInfoDto $info */
 	public $info;
 
