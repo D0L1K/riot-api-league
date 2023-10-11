@@ -56,6 +56,14 @@ class ObjectivesDto extends ApiObject
 	 */
 	public ObjectiveDto $dragon;
 
+    /**
+     * Available when received from:
+     *   - @see LeagueAPI::getMatch
+     *
+     * @var ObjectiveDto $horde
+     */
+    public ObjectiveDto $horde;
+
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
